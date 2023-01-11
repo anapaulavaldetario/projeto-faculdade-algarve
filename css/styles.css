@@ -57,8 +57,8 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 350px;
-    height: 150px;
+    width: 390px;
+    height: 155px;
     border-radius: 12px;
     font-size: 30px;
     text-align: center;
@@ -66,14 +66,21 @@ body {
 }
 
 .imagem img{
-    width: 175px;
-    height: 150px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 155px;
     border-radius: 12px;
+    font-size: 30px;
+    text-align: center;
+    
 
 }    
 
 .course:hover {
-    box-shadow: 4px 4px rgba(58, 201, 211, 0.5);
+    box-shadow: 4px 4px rgba(56, 237, 250, 0.856);
 }
 
 
@@ -138,3 +145,61 @@ footer {
 .contact p {
     margin-top: 15px;
 }
+
+
+/* Inicio Ficheiro */
+
+.first-semester button,
+.second-semester button{
+
+border: none;
+background-color: transparent;
+color: #113D80;
+font-weight: bold;
+font-size: 32px;
+cursor: pointer;
+padding: 16px;
+
+}
+
+.first-semester button:hover,
+.second-semester button:hover{
+    text-decoration:underline ;
+    color:rgb(85, 85, 245);
+}
+
+th,td{
+    border: 1px solid  rgba(80, 199, 207, 0.5);
+    
+}
+
+
+.first-semester table,
+.second-semester table{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 32px;
+    display: none;
+    }
+
+.first-semester tr,
+.second-semester tr{
+ height: 35px;
+}
+
+
+.first-semester th,
+.second-semester th{
+background-color:   rgba(80, 199, 207, 0.5);
+}
+
+
+
+
+
+
+
+
+/* Fim de Ficheiro */
