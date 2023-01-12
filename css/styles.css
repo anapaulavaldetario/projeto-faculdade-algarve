@@ -43,22 +43,8 @@ body {
     
 }
 
-.si {
-    width: 60px;
-    display: flex;
-    margin-left: -550px;
-}
-
-.mkt {
-    width: 60px;
-    display: flex;
-    margin-left: -750px;
-}
-
-.agro {
-    width: 60px;
-    display: flex;
-    margin-left: -740px;
+.title a img{
+    width:55px;
 }
 
 .conteiner-course {
