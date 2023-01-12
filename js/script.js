@@ -6,7 +6,7 @@ const tableSecondSemester = document.querySelector('.second-semester table')
 
 function openTableOne(){
   if(tableFirstSemester.style.display === 'none') {
-    tableFirstSemester.style.display = 'block'
+    tableFirstSemester.style.display = 'table'
   }
   else{
     tableFirstSemester.style.display = 'none'
@@ -14,7 +14,7 @@ function openTableOne(){
 
 function openTableTwo(){
 if(tableSecondSemester.style.display === 'none') {
-  tableSecondSemester.style.display = 'block'
+  tableSecondSemester.style.display = 'table'
   }
   else {
     tableSecondSemester.style.display = 'none'
@@ -22,8 +22,8 @@ if(tableSecondSemester.style.display === 'none') {
 }
 
 
-
 buttonFirstSemester.addEventListener('click',openTableOne)
 buttonSecondSemester.addEventListener('click',openTableTwo)
+
 
 
