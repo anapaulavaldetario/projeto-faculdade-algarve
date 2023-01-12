@@ -1,10 +1,29 @@
-const buttonFirstSemester=document.querySelector(".first-semester>button#first-semester")
-const buttonSecondSemester=document.querySelector(".second-semester>button#second-semester")
+const buttonFirstSemester = document.querySelector('#first-semester')
+const buttonSecondSemester = document.querySelector('#second-semester')
+const tableFirstSemester = document.querySelector('.first-semester table')
+const tableSecondSemester = document.querySelector('.second-semester table')
 
-function opentable(){
-console.log("Hello Alef")
+
+function openTableOne(){
+  if(tableFirstSemester.style.display === 'none') {
+    tableFirstSemester.style.display = 'block'
+  }
+  else{
+    tableFirstSemester.style.display = 'none'
+  }}
+
+function openTableTwo(){
+if(tableSecondSemester.style.display === 'none') {
+  tableSecondSemester.style.display = 'block'
+  }
+  else {
+    tableSecondSemester.style.display = 'none'
+  }
 }
 
-buttonFirstSemester.addEventListener("click",opentable)
-buttonSecondSemester.addEventListener("click",opentable)
+
+
+buttonFirstSemester.addEventListener('click',openTableOne)
+buttonSecondSemester.addEventListener('click',openTableTwo)
+
 
