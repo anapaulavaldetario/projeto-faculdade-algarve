@@ -201,9 +201,74 @@ background-color:   rgba(80, 199, 207, 0.5);
 
 
 
+@media screen and (max-width: 1020px){
+    
+
+h1{
+font-size: 34px;
+line-height: 30px;
+margin: 15px;
+
+}
+
+.course {
+    width: 50%; 
+    cursor: pointer;
+}
+
+img{
+    width: 5%;
+}
+
+.conteiner-course{
+flex-direction: column;
+gap: 25px;
+margin-top: 15px;
+cursor: pointer;
+
+    }   
+
+.conteiner-course p{
+    text-align: justify;
+}     
+    
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+}   
+
+h2{
+margin-top: 20px;
+font-size: 32px;
+
+}   
+
+p{
+    font-size: 28px;
+}
+.contact, .follow{
+    margin-bottom: 20px;
+}
+
+}
 
 
+/*Sistema de Informação*/
+.teacher p{
+font-size: 18px;
+}
 
+h1{
+    text-align: center;
+}
 
+table{
+    flex-direction: column;
+}
 
 /* Fim de Ficheiro */
